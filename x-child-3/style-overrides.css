@@ -19,7 +19,57 @@ button:focus {
 
 #overlay footer{
     background: white;
-    padding: 3em 0;}
+    padding: 3em 0;
+}
+#overlay footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#overlay footer section .contact-us a{
+    background-color: #ff2900;
+    padding: 15px 60px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    border: 2px solid #ff2900;
+}
+#overlay footer section .contact-us a:hover{
+    background-color: #fff;
+    color: #ff2900;
+}
+#overlay footer section .contact-us p{
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: "franklin-gothic-urw";
+}
+#overlay footer section .l-container {
+    margin: 0;
+}
+
+#overlay footer section{
+    margin: 0 auto;}
+@media(min-width:768px){
+#overlay footer section{
+    max-width: 678px;}}
+@media(min-width:1025px){
+#overlay footer section{
+    max-width: 905px;}}
+
+@media(min-width:1200px){
+    #overlay footer section{
+        max-width: 1050px;}}
+
+@media only screen and (max-width: 768px) {
+
+    #overlay footer section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 
 #overlay footer p {
     margin-bottom: 0;}

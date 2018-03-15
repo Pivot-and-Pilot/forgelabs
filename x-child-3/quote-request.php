@@ -197,13 +197,18 @@
     </div>
 
     <footer>
+        <section>
+            <div class="contact-us">
+                <p>Feeling stuck?</p>
+                <a href="mailto:patrick@forgelabs.ca" class="contact-us__send-email-button">Send us an email</a>
+            </div>
 
-        <div class="l-container">
+            <div class="l-container">
 
-            <p>For material questions &amp; urgent request, please contact:<br><a>sales@forgelabs.ca</a> or call us at <a>604.259.1399</a></p>
+                <p>For material questions &amp; urgent request, please contact:<br><a>sales@forgelabs.ca</a> or call us at <a>604.259.1399</a></p>
 
-        </div>
-
+            </div>
+        </section>
     </footer>
 
     <div class="l-container">
