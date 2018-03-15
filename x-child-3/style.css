@@ -1,0 +1,13 @@
+/*
+Theme Name: X &ndash; Child Theme - 3
+Theme URI: http://theme.co/x/
+Author: Tuan
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+*/
+
+.request-a-quote-link a {
+  color: #ff2800 !important;
+}
