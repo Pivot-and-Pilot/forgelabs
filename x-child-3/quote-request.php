@@ -108,8 +108,8 @@
 
             }
 
-            $to = 'patrick@forgelabs.ca';
-            // $to = 'tuan@pivotandpilot.com';
+            // $to = 'patrick@forgelabs.ca';
+            $to = 'tuan@pivotandpilot.com';
             $subject = $message_subject;
             $message =  $message_body;
             $attachments = $files_array;
@@ -145,6 +145,7 @@
         
     ?>
     <div class="loader">
+        <div class="loader__text">Uploading & Sending</div>
         <div class="spinner">
             <div class="double-bounce1"></div>
             <div class="double-bounce2"></div>

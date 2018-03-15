@@ -431,6 +431,15 @@ button#drop_zone_button:hover {
     opacity: .5;
     z-index: 2
 }
+.loader .loader__text {
+    color: #96281B;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-family: "franklin-gothic-urw";
+}
 .spinner {
     width: 100px;
     height: 100px;
